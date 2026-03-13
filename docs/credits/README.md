@@ -25,8 +25,8 @@ sidebar: false
 
 ## GitHub Contributors
 
-<a href="https://github.com/BBleae/hrt-book/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=BBleae/hrt-book&max=50&anon=1" />
+<a href="https://github.com/k3-cat/shizu-hrt-guide/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=k3-cat/shizu-hrt-guide&max=50&anon=1" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).

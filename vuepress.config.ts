@@ -24,9 +24,9 @@ const config = defineUserConfig({
   theme: defaultTheme({
     hostname: "http://shizu.3c6.org/",
     logo: "/logo.png",
-    repo: "BBleae/hrt-book",
+    repo: "k3-cat/shizu-hrt-guide",
     repoLabel: "GitHub",
-    docsRepo: "BBleae/hrt-book",
+    docsRepo: "k3-cat/shizu-hrt-guide",
     docsDir: "docs",
     docsBranch: "main",
     editLink: true,
