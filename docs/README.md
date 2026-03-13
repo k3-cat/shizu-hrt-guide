@@ -3,8 +3,8 @@ home: true
 sidebar: false
 heroImage: /logo.png
 actions:
-  - text: 文档目录
-    link: /menu/
+  - text: 进入文档
+    link: /parts/Part0.html
     type: primary
 ---
 
