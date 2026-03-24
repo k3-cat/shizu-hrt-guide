@@ -9,6 +9,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/client": "2.0.0-rc.2",
+    "@vuepress/plugin-clarity-analytics": "2.0.0-rc.125",
     "@vuepress/plugin-register-components": "2.0.0-rc.125",
     "@vuepress/theme-default": "2.0.0-rc.125",
     "@vuepress/utils": "2.0.0-rc.2",

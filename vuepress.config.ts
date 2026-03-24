@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname } from "vuepress/utils";
 import { viteBundler } from "@vuepress/bundler-vite";
+import { clarityAnalyticsPlugin } from "@vuepress/plugin-clarity-analytics";
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { defaultTheme } from "@vuepress/theme-default";
 import { path } from "@vuepress/utils";
@@ -83,6 +84,7 @@ const config = defineUserConfig({
     });
   },
   plugins: [
+    clarityAnalyticsPlugin({ id: process.env.VITE_CLARITY_ID! }),
     registerComponentsPlugin({
       componentsDir: path.join(__dirname, "./components"),
     }),
