@@ -1,3 +1,12 @@
+@use 'palettes';
+@use 'toggle-sidebar';
+@use 'table';
+@use 'variables';
+
 :root {
   scroll-behavior: smooth;
+}
+
+.secondaryList {
+  margin-left: 2rem;
 }

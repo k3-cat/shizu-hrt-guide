@@ -1,0 +1,26 @@
+@use 'variables' as v;
+
+.table-wrapper {
+  overflow-x: auto;
+  max-height: calc(100dvh - v.$navbar-height);
+  scrollbar-width: thin;
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
+
+  >table {
+    display: table;
+    white-space: nowrap;
+    overflow-y: visible;
+
+    >thead {
+      $border-color: var(--vp-c-border-hard, #d1d4d7);
+
+      position: sticky;
+      top: 0px;
+      z-index: 2;
+      background: var(--vp-c-bg, #fff);
+      box-shadow: inset 0 1px 0 0 $border-color,
+        inset 0 -1px 0 0 $border-color;
+    }
+  }
+}

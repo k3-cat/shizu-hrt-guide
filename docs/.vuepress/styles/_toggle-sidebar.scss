@@ -1,0 +1,64 @@
+@use 'variables' as v;
+
+:root {
+  --dyn-sidebar-width: var(--sidebar-width, 20rem);
+
+  @media screen and (max-width: v.$MQNarrow) {
+    --dyn-sidebar-width: var(--sidebar-width-mobile, calc(0.82 * var(--sidebar-width)));
+  }
+
+  @media screen and (max-width: v.$MQMobile) {
+    --dyn-sidebar-width: 0px;
+  }
+}
+
+$sidebar-width: var(--dyn-sidebar-width);
+
+#btn-toggle-sidebar {
+  position: fixed;
+  top: calc(1.2rem + v.$navbar-height);
+  left: calc(1.2rem + $sidebar-width);
+  z-index: 50;
+  background: var(--vp-c-control, #8e96aa1a);
+  border: none;
+  border-radius: 6px;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: var(--vp-c-control-hover, #8e96aa29);
+    border: 0.15rem solid var(--vp-c-accent-soft, #10b98124);
+  }
+
+  @media screen and (max-width: v.$MQMobile) {
+    display: none;
+  }
+}
+
+[data-sidebar="no"] {
+  #btn-toggle-sidebar {
+    left: 1.2rem;
+  }
+
+  aside {
+    display: none;
+  }
+
+  main {
+    $page-max-width-no-sidebar : calc($sidebar-width + var(--content-width, 740px));
+
+    padding-inline-start: 0px;
+
+    [vp-content] {
+      max-width: $page-max-width-no-sidebar;
+    }
+
+    footer {
+      max-width: $page-max-width-no-sidebar;
+    }
+  }
+}

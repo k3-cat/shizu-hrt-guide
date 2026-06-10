@@ -1,0 +1,19 @@
+{
+	"short_name": "Shizu's Guide",
+	"name": "Shizu's HRT Guide",
+	"start_url": ".",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "48x48"
+		},
+		{
+			"src": "logo.png",
+			"sizes": "964x964",
+			"type": "image/png"
+		}
+	],
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

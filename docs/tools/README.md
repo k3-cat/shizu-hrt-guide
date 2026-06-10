@@ -1,3 +1,8 @@
+---
+sidebar: false
+search: false
+---
+
 # 工具
 
 ```c

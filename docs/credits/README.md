@@ -1,6 +1,7 @@
 ---
 sidebar: false
 ---
+
 # Credits
 
 ## しず / shizu: [Twitter](https://twitter.com/shizunyan_)
@@ -29,4 +30,11 @@ sidebar: false
   <img src="https://contrib.rocks/image?repo=k3-cat/shizu-hrt-guide&max=50&anon=1" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+***Made with [contrib.rocks](https://contrib.rocks).***
+
+
+# 关于我们
+
+[Telegram 群组](https://t.me/+3o8Rc_tLaBZhNThl)
+
+[Google Docs](https://docs.google.com/presentation/d/1PzE-rmtwBMOrgXcsI_RIDAKTUIe3fx5h-PmEbzRgBBA)（本站HRT资料的起源，已归档）

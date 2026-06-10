@@ -10,16 +10,28 @@
 ## 社区
 
 - Reddit:
-    - [/r/transdiy](https://reddit.com/r/transdiy)
-    - [/r/askmtfhrt](https://reddit.com/r/askmtfhrt)
+  - [/r/transdiy](https://reddit.com/r/transdiy)
+  - [/r/askmtfhrt](https://reddit.com/r/askmtfhrt)
 - 4chan
-    - [/lgbt/hrtgen](https://boards.4channel.org/lgbt/catalog#s=hrtgen)
+  - [/lgbt/hrtgen](https://boards.4channel.org/lgbt/catalog#s=hrtgen)
 - Groups.io
-    - [/g/MTFHRT](https://groups.io/g/MTFHRT/)
+  - [/g/MTFHRT](https://groups.io/g/MTFHRT/)
+
+## Wiki
+
+[MtF 小站](https://mtf.qwq.pink): 一个跨性别相关内容的存储/备份网站
+
+[MtF.wiki](https://mtf.wiki): MtF 相关的综合性 Wiki (不止有 HRT 相关)
+
+[HRT.coffee](https://hrt.coffee): 由海外 DIY HRT 社群整理的 HRT 药商索引（不出售药物，仅展示信息），纯英文网站，不保证在国内可用，购买需自行承担风险
+
+[Transfeminine Science (女性倾向跨性别者科学)](https://transfemscience.org)
+
+[“女性倾向跨性别者科学”中文译本存档站](https://tfsci.mtf.wiki)
 
 ## 术语表
 
-社会上有许多缩写和技术术语。  
+社会上有许多缩写和技术术语。
 你不需要知道所有这些术语，但它们可能会有用。
 
 ### 激素治疗相关
@@ -103,7 +115,7 @@
 
 - [剂量对照表](https://transfemscience.org/articles/e2-equivalent-doses/)
 - 2-8mg 口服雌二醇，每天一次，或在一天内分散服用。
-- 1-2mg 舌下含服雌二醇，一次到三次，均匀分布在一天中。 
+- 1-2mg 舌下含服雌二醇，一次到三次，均匀分布在一天中。
 - 50-600mcg/h Climara 7天贴片，每周一次。
 - 50-600mcg/h Estradot 3.5天贴片，每周两次。
 - 1.5-9mg Estrogel或透皮喷雾，每天一次。
@@ -113,16 +125,16 @@
 
 ### 单药疗法
 
-- [注射用雌二醇模拟器](https://transfemscience.org/misc/injectable-e2-simulator/)  
-- 每5天注射一次7mg戊酸雌二醇。 
-- 每10天注射一次10mg环戊酸雌二醇。 
-- 每10天注射10mg庚酸雌二醇。 
+- [注射用雌二醇模拟器](https://transfemscience.org/misc/injectable-e2-simulator/)
+- 每5天注射一次7mg戊酸雌二醇。
+- 每10天注射一次10mg环戊酸雌二醇。
+- 每10天注射10mg庚酸雌二醇。
 
 足够高的雌激素水平会充分抑制你的睾丸激素分泌。
 
 许多人使用比上述所列剂量更低的剂量获得更好的体验，但人们经常在没有验血的情况下注射更多的剂量。由于可及性或费用问题，以防止E2过低，在没有抗雄激素的情况下抑制T。如果你有机会进行验血，通常建议你进行验血并根据需要调整剂量。
 
-有些人还设法通过每天三次2毫克舌下含服雌二醇或大剂量凝胶/[阴囊皮肤上的贴片]（https://transfemscience.org/articles/genital-e2-application/）将其T降低到女性水平，但这似乎不如注射来得稳定。
+有些人还设法通过每天三次2毫克舌下含服雌二醇或大剂量凝胶/[阴囊皮肤上的贴片](https://transfemscience.org/articles/genital-e2-application/)将其T降低到女性水平，但这似乎不如注射来得稳定。
 
 ## 黄体酮
 
@@ -145,7 +157,7 @@
 
 下方还有一些在一般情况下或某些健康状况下可能是有用的链接。希望你能仔细注意和研究你所出现的任何不良症状。
 
-- 血液检查（美国）：https://www.privatemdlabs.com/  
+- 血液检查（美国）：https://www.privatemdlabs.com/
 - 血液检查（英国、爱尔兰）：https://www.medichecks.com/
 - 血液检查（加拿大）：https://bloodtestscanada.com/
 - 血液检查（瑞典）：https://werlabs.se/
