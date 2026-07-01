@@ -1,0 +1,11 @@
+{
+	"extends": "./tsconfig.json",
+	"include": ["./.vuepress/**/*.vue"],
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"types": [],
+		"jsx": "preserve",
+		"jsxImportSource": "vue",
+		"composite": true
+	}
+}

@@ -1,18 +1,29 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+	"files": [],
+	"references": [
+		{ "path": "./tsconfig.node.json" },
+		{ "path": "./tsconfig.vue.json" }
+	],
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"verbatimModuleSyntax": true,
+		"noEmit": true,
 
-    "strict": true,
-    "skipLibCheck": true,
-    "lib": ["DOM", "ESNext"],
+		"strict": true,
+		"skipLibCheck": true,
+		"checkJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
 
-    "declaration": false,
-    "noEmitOnError": true,
-    "noImplicitAny": false,
-    "newLine": "lf",
-  },
-  "include": ["**/.vuepress/**/*", "./vuepress.config.ts"],
-  "exclude": ["node_modules", ".cache", ".temp", "dist"]
+		/* Styles */
+		"allowUnusedLabels": true,
+		"allowUnreachableCode": true,
+		"forceConsistentCasingInFileNames": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true
+	}
 }

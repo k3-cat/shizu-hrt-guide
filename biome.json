@@ -1,0 +1,79 @@
+{
+	"$schema": "https://biomejs.dev/schemas/latest/schema.json",
+	"overrides": [
+		{
+			"includes": ["**/*.svelte", "**/*.astro", "**/*.vue"],
+			"linter": {
+				"rules": {
+					"style": {
+						"useConst": "off",
+						"useImportType": "off"
+					},
+					"correctness": {
+						"noUnusedVariables": "off",
+						"noUnusedImports": "off"
+					}
+				}
+			}
+		}
+	],
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
+	"files": {
+		"ignoreUnknown": false,
+		"includes": [
+			"**/*.json",
+			"**/*.scss",
+			"**/*.ts",
+			"**/*.tsx",
+			"**/*.vue",
+			"!package.json",
+			"!types/worker-configuration.d.ts"
+		]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"preset": "recommended",
+			"style": {
+				"noNonNullAssertion": "off",
+				"useImportType": {
+					"level": "on",
+					"options": {
+						"style": "separatedType"
+					}
+				}
+			}
+		}
+	},
+	"formatter": {
+		"enabled": true,
+		"expand": "auto",
+		"useEditorconfig": true
+	},
+	"assist": {
+		"actions": {
+			"source": {
+				"organizeImports": {
+					"level": "on",
+					"options": {
+						"groups": [
+							":NODE:",
+							["vite", "vue", "vuepress"],
+							["vite-*", "vuepress/**", "@vuepress/**", "vuepress-*"],
+							":BLANK_LINE:",
+							":PACKAGE:",
+							":BLANK_LINE:",
+							"$/**",
+							":BLANK_LINE:",
+							"./**"
+						]
+					}
+				}
+			}
+		}
+	}
+}

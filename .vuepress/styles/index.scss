@@ -1,0 +1,25 @@
+@use "_caption";
+@use "expandable_content_area";
+@use "icons";
+@use "palettes";
+@use "table";
+@use "variables";
+
+:root {
+	scroll-behavior: smooth;
+}
+
+.vp-page [vp-content] {
+	text-autospace: ideograph-alpha;
+}
+
+.secondaryList {
+	margin-left: 2rem;
+}
+
+figure {
+	img {
+		display: block;
+		margin-inline: auto;
+	}
+}
