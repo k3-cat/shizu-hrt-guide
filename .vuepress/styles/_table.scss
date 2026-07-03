@@ -2,8 +2,8 @@
 
 .table-wrapper {
 	display: block;
-	overflow-block: clip;
-	overflow-inline: auto;
+	overflow-x: auto;
+	overflow-y: clip;
 
 	margin: 1rem 0;
 	max-width: 100%;
@@ -33,26 +33,38 @@
 	}
 
 	> table {
-		display: inline-table;
+		display: table;
+		overflow: clip;
 		word-break: keep-all;
 		text-wrap: pretty;
 
 		margin: 0;
 
-		> thead {
-			position: sticky;
-			top: v.$navbar-height;
-			z-index: 2;
+		border-collapse: separate;
+		border-spacing: 0;
 
-			background: v.$background;
-			box-shadow:
-				inset 0 1px 0 0 v.$table-border-colour,
-				inset 0 -1px 0 0 v.$table-border-colour;
+		td {
+			border-width: 0 0 1px 1px;
 		}
 
 		th:first-child,
 		td:first-child {
 			min-width: 15ch;
+		}
+
+		th:last-child,
+		td:last-child {
+			border-right-width: 1px;
+		}
+
+		> thead th {
+			position: -webkit-sticky;
+			position: sticky;
+			top: v.$navbar-height;
+			z-index: 2;
+
+			background: v.$background;
+			border-width: 1px 0 1px 1px;
 		}
 	}
 }
